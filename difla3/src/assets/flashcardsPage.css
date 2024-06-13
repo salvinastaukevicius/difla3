@@ -1,0 +1,33 @@
+#size {
+    border: 10px solid black;
+    /* width:  2732px;
+    height: 2048px; */
+
+    width: 2048px;
+    height: 2732px;
+    transform: rotate(90deg);
+    background-color: antiquewhite;
+    margin-left: 340px;
+    margin-top: -346px;
+    
+
+}
+
+#sectionKids {
+    height: 50%;
+    
+    transform: rotate(180deg);
+    border-top: 5px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionParents {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

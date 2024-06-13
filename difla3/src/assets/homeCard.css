@@ -1,0 +1,70 @@
+#homeBackground {
+    width: 2732px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  #blueHomeBackground {
+    width: 2732px;
+    height: 380px;
+    margin-top: -44px;
+    display: block;
+    padding: 0;
+  }
+  
+  #container {
+    position: relative;
+  }
+  
+  #iceBlock {
+    position: absolute;
+    top: 67%;
+    left: -10px;
+  }
+  
+  #penguinHome {
+    position: absolute;
+    top: 39%;
+    height: 600px;
+    left: 240px;
+  }
+  
+  #sectionGreeting {
+    position: absolute;
+    top: 44%;
+    left: 920px;
+    display: flex;
+  }
+  
+  #rectangleGreeting {
+    background-color: white;
+    color: #203E83;
+    padding: 50px 0px 50px 100px;
+    font-size: 75px;
+    width: 730px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 0;
+  }
+  
+  #triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid white;
+    border-bottom: 25px solid transparent;
+    margin-top: 90px;
+  }
+  
+  #speaker {
+    height: 50px;
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+
+    #base {
+      position: relative;
+      z-index: 1;
+    }
