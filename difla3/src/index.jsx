@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { HashRouter as Routes, Route, HashRouter } from 'react-router-dom';
+import { HashRouter as Routes, Route, Switch } from 'react-router-dom';
 import App from './App'
 import FlashcardsPage from './assets/flashcardsPage';
 import './index.css';
@@ -8,10 +8,14 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <HashRouter >
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/flashcards" element={<FlashcardsPage />} />
+    <Route exact path="/" element={<App />} />
+    <Route exact path="/home" element={<App />} />
     </Routes>
+      
+      {/* <Route path="/flashcards" element={<FlashcardsPage />} />
+      <Route path="/flashcards" element={<FlashcardsPage />} />     */}
+    
   </HashRouter>
 );

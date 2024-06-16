@@ -13,8 +13,8 @@ const App = () => {
   return (
     <div className="App">
       <Menu />
-      <MyComponent />
-      <HomeFlashcards />
+      {/* <MyComponent />
+      <HomeFlashcards /> */}
       {/* <Minigames /> */}
       
     </div>
