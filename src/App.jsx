@@ -4,20 +4,24 @@ import MyComponent from "./assets/MyComponent/";
 import HomeFlashcards from "./assets/homeFlashcards";
 // import Minigames from "./minigames";
 import Menu from "./assets/menu";
-// import './app.css'
+
+import FlashcardsPage from './assets/flashcardsPage';
+import { Routes, Route, HashRouter } from "react-router-dom";
+import Hometouse from "./assets/HomeCardToUse";
 
 
 
 
 const App = () => {
   return (
-    <div className="App">
-      <Menu />
-      {/* <MyComponent />
-      <HomeFlashcards /> */}
-      {/* <Minigames /> */}
+    <Routes>
+      <Route exact path="/" element={[<Menu/>,<MyComponent/>,<HomeFlashcards/>]} />
+      <Route exact path="/flash" element={<FlashcardsPage />} />
+    </Routes>
+
+
       
-    </div>
+    
   );
 };
 

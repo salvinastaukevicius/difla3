@@ -1,5 +1,6 @@
 // NewPage.js
 import React, {useEffect} from 'react';
+import { HashRouter as Routes, Route } from 'react-router-dom';
 import "./flashcardsPage.css"
 
 const FlashcardsPage = () => {

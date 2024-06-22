@@ -7,7 +7,7 @@ const NavigateButton = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/flashcards');
+    navigate('/flash');
   };
 
   const buttonStyle = {

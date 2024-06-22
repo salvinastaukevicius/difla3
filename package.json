@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "/difla3/#",
   "name": "difla3",
   "private": true,
   "version": "0.0.0",
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",

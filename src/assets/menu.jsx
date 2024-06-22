@@ -3,7 +3,7 @@ import React from 'react';
 import iconHomeSelected from './images/iconHomeSelected.svg';
 import iconStoreUnselected from './images/iconStoreUnselected.svg'
 import iconUserUnselected from './images/iconUserUnselected.svg'
-// import './menu.css'
+import './menu.css'
 
 const Menu = () => {
   return (
