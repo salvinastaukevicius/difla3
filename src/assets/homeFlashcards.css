@@ -3,6 +3,11 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+  body, html {
+    background-color:  #3166A3;
+    min-width: 2732px; ;
+  }
+
 
 #titleFlashcards {
     font-size: 100px;
@@ -50,6 +55,7 @@ body::-webkit-scrollbar {
 #blueColor {
     background-color: #3166A3;
     width: 2732px;
+    height: 1700px;
 }
 #card {
     width: 680px;

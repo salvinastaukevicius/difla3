@@ -1,6 +1,5 @@
 // NewPage.js
 import React, {useEffect} from 'react';
-import { HashRouter as Routes, Route } from 'react-router-dom';
 import "./flashcardsPage.css"
 
 const FlashcardsPage = () => {
@@ -17,15 +16,22 @@ const FlashcardsPage = () => {
   }, []);
 
   return (
+    <div id='nomargin'>
     <div id='size'>
       <section id='sectionKids'>
       <p>Kind zit hier</p>
       </section>
 
       <section id='sectionParents'>
-<p>Ouder zit hier</p>
+      <div id='center'>
+      <button id='buttonStart'>Starten</button>
+      <p>Ouder zit hsier</p>
+      </div>
+
       </section>
     </div>
+    </div>
+
   );
 };
 

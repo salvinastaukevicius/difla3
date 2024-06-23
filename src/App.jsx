@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import MyComponent from "./assets/MyComponent/";
 import HomeFlashcards from "./assets/homeFlashcards";
-// import Minigames from "./minigames";
+import Minigames from "./assets/minigames"
 import Menu from "./assets/menu";
 
 import FlashcardsPage from './assets/flashcardsPage';
@@ -15,7 +15,7 @@ import Hometouse from "./assets/HomeCardToUse";
 const App = () => {
   return (
     <Routes>
-      <Route exact path="/" element={[<Menu/>,<MyComponent/>,<HomeFlashcards/>]} />
+      <Route exact path="/" element={[<Menu/>,<MyComponent/>,<HomeFlashcards/>,<Minigames/>]} />
       <Route exact path="/flash" element={<FlashcardsPage />} />
     </Routes>
 
